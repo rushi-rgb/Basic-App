@@ -1,0 +1,77 @@
+.container{
+    justify-content: center;
+
+    align-items: center;
+    
+    text-align: center;
+    margin-top: 20px;
+}
+table{
+    margin: auto;
+    margin-top: 5px;
+}
+button{
+    height: 3rem;
+    width: 5rem;
+    padding: 2px;
+    font-size: 1.6rem;
+    background-color: black;
+    color: white;
+    border: 4px solid white;
+    
+}
+input{
+    width: auto;
+    font-size: 1.77rem;
+    border: 4px solid white;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    
+}
+.col-md-4{
+    margin: auto;
+}
+
+.cal{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 1.7rem;
+}
+.calc{
+    background-color: black;
+    margin: 0.3rem;
+    
+}
+
+@media (max-width: 500px){
+    body{
+        background-color: black;
+        color: white;
+    }
+    input{
+    width: 21rem;
+    }
+}
+@media (min-width: 500px){
+    input{
+        border: 4px solid red;
+        border-radius: 7px;
+    }
+    button{
+        border: 3px solid red;
+        border-radius: 4px;
+    }
+    
+}
+.container h1:after {
+    background: linear-gradient( #247ce2 0%,#2f20fa 0%, #06ccfd 100%);
+    content: "";
+    display: block;
+    width: 120px;
+    height: 3px;
+    margin: 10px auto;
+}
